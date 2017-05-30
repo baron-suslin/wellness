@@ -1,0 +1,151 @@
+body {
+	min-width: 1280px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #211423;
+	background-color: #211423;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	font-size: 48px;
+	line-height: 60px;
+	font-weight: bold;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}	
+
+h5 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: normal;
+}
+
+h6 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto; /*Посмотреть на счет горизонтального выравнивания*/
+	padding: 20px;
+	background-color: #f9f5ea;
+	border-radius: 15px;
+	opacity: 0.9; /*Прикинуть прозрачность в готовиом виде*/
+}
+
+.main-header {
+	max-width: 1280px;
+	color: #f9f5ea;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #211423;
+	background: url("../image/bg-header.png");
+	background-position: center 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-header::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.header-container {
+	width: 1200px;
+	margin: 0 auto; /*Посмотреть на счет горизонтального выравнивания*/
+	padding: 0 20px;
+}
+
+.contacts-header {
+	display: inline-block;
+	float: left;
+	width: 360px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+
+.main-menu {
+	float: right;
+	width: 760px;
+	height: 50px;
+	margin-bottom: 30px;
+}
+
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.main-menu li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+.main-menu a {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f9f5ea;
+}
+
+.header-title {
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.header-title h1 {
+	margin-bottom: 20px;
+}
