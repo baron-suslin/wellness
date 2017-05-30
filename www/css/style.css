@@ -75,6 +75,8 @@ h6 {
 	opacity: 0.9; /*Прикинуть прозрачность в готовиом виде*/
 }
 
+/*Блок хэйдера*/
+
 .main-header {
 	max-width: 1280px;
 	color: #f9f5ea;
@@ -87,15 +89,9 @@ h6 {
 	background-size: cover;
 }
 
-.main-header::after {
-	display: table;
-	clear: both;
-	content: "";
-}
-
 .header-container {
 	width: 1200px;
-	margin: 0 auto; /*Посмотреть на счет горизонтального выравнивания*/
+	margin: 0 auto;
 	padding: 0 20px;
 }
 
@@ -139,6 +135,15 @@ h6 {
 	color: #f9f5ea;
 }
 
+.main-menu a:hover {
+	text-decoration: underline;
+}
+
+.main-menu a:active {
+	text-decoration: none;
+	opacity: 0.5;
+}
+
 .header-title {
 	clear: both;
 	margin: 0 auto;
@@ -149,3 +154,16 @@ h6 {
 .header-title h1 {
 	margin-bottom: 20px;
 }
+
+/*Блок "О нас"*/
+
+
+
+
+/*
+.main-header::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+*/
