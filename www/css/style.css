@@ -196,10 +196,56 @@ h6 {
 	vertical-align: top;
 }
 
-.coaches-photo img {
-	border: #f9f5ea 2px solid;
-	outline: #211423 1px solid;
+.coaches-photo h3{
+	padding-top: 300px;
 }
+
+.coaches-photo .box-photo {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	border: #f9f5ea 2px solid;
+	border-radius: 10px;
+	background-color: #211423;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Далее идут перечесление ссылок на фото*/
+
+.coaches-photo .photo1 {
+	background-image: url("../img/coaches/photo1.jpg");
+}
+
+.coaches-photo .photo2 {
+	background-image: url("../img/coaches/photo2.jpg");
+}
+
+.coaches-photo .photo3 {
+	background-image: url("../img/coaches/photo3.jpg");
+}
+
+.coaches-photo .photo4 {
+	background-image: url("../img/coaches/photo4.jpg");
+}
+
+.coaches-photo .photo5 {
+	background-image: url("../img/coaches/photo5.jpg");
+}
+
+.coaches-photo .photo6 {
+	background-image: url("../img/coaches/photo6.jpg");
+}
+
+.coaches-photo .photo7 {
+	background-image: url("../img/coaches/photo7.jpg");
+}
+
+.coaches-photo .photo8 {
+	background-image: url("../img/coaches/photo8.jpg");
+}
+
 
 
 
