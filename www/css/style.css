@@ -76,7 +76,7 @@ h6 {
 	padding: 20px;
 	background-color: #f9f5ea;
 	border-radius: 5px;
-	opacity: 0.75; /*Прикинуть прозрачность в готовиом виде*/
+	opacity: 0.9; /*Прикинуть прозрачность в готовиом виде*/
 }
 
 /*Блок хэйдера*/
@@ -141,6 +141,7 @@ h6 {
 
 .main-menu a:hover {
 	text-decoration: underline;
+	color: #c49e3c;
 }
 
 .main-menu a:active {
@@ -196,14 +197,11 @@ h6 {
 	vertical-align: top;
 }
 
-.coaches-photo h3{
-	padding-top: 300px;
-}
-
 .coaches-photo .box-photo {
 	display: inline-block;
 	width: 200px;
 	height: 300px;
+	font-size: 0;
 	border: #f9f5ea 2px solid;
 	border-radius: 10px;
 	background-color: #211423;
@@ -246,13 +244,197 @@ h6 {
 	background-image: url("../img/coaches/photo8.jpg");
 }
 
+/*Блок услуги*/
 
-
-
-/*
-.main-header::after {
-	display: table;
-	clear: both;
-	content: "";
+.services {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #211423;
+	background-image: url("../img/bg-services.png");
+	background-position: center 65%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-*/
+
+.services-content {
+	text-align: center;
+}
+
+.services-block {
+	display: inline-block;
+	width: 360px;
+	vertical-align: top;
+	margin: 15px;
+	margin-bottom: 20px;
+}
+
+.services-block p {
+	text-indent: 1.5em;
+	text-align: justify;
+}
+
+/*Блок расписания*/
+
+.schedule {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #211423;
+}
+
+.schedule-content {
+	text-align: center;
+}
+
+.schedule-content h2 {
+	margin-bottom: 20px;
+}
+
+/*Блок контактов*/
+
+.contacts {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #211423;
+	background-image: url("../img/bg-contacts.png");
+	background-position: center 65%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contacts-content {
+	text-align: center;
+}
+
+.map {  /*Встовляем карту*/
+	padding: 20px;
+}
+
+.contacts-content .info-block {
+	width: 300px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;	
+	vertical-align: top;
+}
+
+/*Блок футера*/
+
+.footer {
+	max-width: 1280px;
+	color: #f9f5ea;
+	margin: 0 auto;
+	padding: 40px;
+	padding-bottom: 0;
+	background-color: #211423;
+}
+
+.footer-container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.footer-title {
+	display: inline-block;
+	float: left;
+	width: 360px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+	
+}
+
+.footer-menu {
+	float: right;
+	width: 760px;
+	height: 50px;
+}
+
+.footer-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.footer-menu li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+.footer-menu a {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	color: #f9f5ea;
+}
+
+.footer-menu a:hover {
+	text-decoration: underline;
+	color: #c49e3c;
+}
+
+.footer-menu a:active {
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.footer-social {
+	float: right;
+	width: 400px;
+	text-align: right;
+	font-size: 0;
+	margin-top: 20px;
+}
+
+.social-btn  {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.social-btn:last-child {
+	margin-right: 0;
+}
+
+.social-btn-vk {
+	background-image: url("../img/icon-vk.png");
+}
+
+.social-btn-vk:hover {
+	background-image: url("../img/icon-vk-a.png");
+}
+
+.social-btn-in {
+	background-image: url("../img/icon-in.png");
+}
+
+.social-btn-in:hover {
+	background-image: url("../img/icon-in-a.png");
+}
+
+.social-btn-fb {
+	background-image: url("../img/icon-fb.png");
+}
+
+.social-btn-fb:hover {
+	background-image: url("../img/icon-fb-a.png");
+}
+
+
+.footer-container::after {
+  display: table;
+  clear: both;
+  content: "";
+}
