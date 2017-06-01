@@ -74,9 +74,9 @@ h6 {
 	width: 1200px;
 	margin: 0 auto; /*Посмотреть на счет горизонтального выравнивания*/
 	padding: 20px;
-	background-color: #f9f5ea;
+	background-color: rgba(249, 245, 234, 0.7);
 	border-radius: 5px;
-	opacity: 0.9; /*Прикинуть прозрачность в готовиом виде*/
+	/*opacity: 0.9;*/ /*Прикинуть прозрачность в готовиом виде*/
 }
 
 /*Блок хэйдера*/
@@ -326,8 +326,7 @@ h6 {
 	max-width: 1280px;
 	color: #f9f5ea;
 	margin: 0 auto;
-	padding: 40px;
-	padding-bottom: 0;
+	padding: 0 40px;
 	background-color: #211423;
 }
 
@@ -396,8 +395,8 @@ h6 {
 
 .social-btn  {
 	display: inline-block;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	margin-right: 20px;
 	background-position: center;
 	background-repeat: no-repeat;
